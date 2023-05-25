@@ -1,0 +1,10 @@
+#!/bin/bash
+curr=`brightnessctl get -d intel_backlight`
+max=`brightnessctl m -d intel_backlight`
+if [[ $curr -lt $max ]];then
+	tart=$(expr $curr + 100)
+		if [[ $tart -gt $max ]];then
+			tart=$max
+		fi
+	brightnessctl set -d intel_backlight $tart
+fi

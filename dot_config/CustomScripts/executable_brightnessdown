@@ -1,0 +1,8 @@
+#!/bin/bash
+curr=`brightnessctl get -d intel_backlight`
+min=100
+tart=$(expr $curr - 100)
+if [[ $tart -lt $min ]];then
+	tart=$min
+fi
+brightnessctl set -d intel_backlight $tart

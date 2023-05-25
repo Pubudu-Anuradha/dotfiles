@@ -1,0 +1,10 @@
+#!/bin/bash
+[ "$UID" -eq 0 ] || exec sudo $0 $@
+# Switched to root
+target="/sys/bus/platform/drivers/ideapad_acpi/VPC2004:00/conservation_mode"
+if grep -q 1 $target;
+then
+  echo 0 > $target && echo "Deactivated Conservation mode"
+else
+  echo 1 > $target && echo "Activated Conservation mode"
+fi

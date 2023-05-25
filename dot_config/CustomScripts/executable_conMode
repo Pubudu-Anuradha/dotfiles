@@ -1,0 +1,12 @@
+#!/bin/bash
+mode="/sys/bus/platform/drivers/ideapad_acpi/VPC2004:00/conservation_mode"
+if grep -q 1 $mode;
+then
+  echo "  "
+  echo "Conservation Mode is on"
+  echo "conmode-on"
+else
+  echo "  "
+  echo "Conservation Mode is off"
+  echo "conmode-off"
+fi
