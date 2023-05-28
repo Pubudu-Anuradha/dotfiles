@@ -4,3 +4,18 @@
 [submodule "desk/hyprpaper"]
 	path = desk/hyprpaper
 	url = https://github.com/hyprwm/hyprpaper.git
+[submodule "desk/Waybar"]
+	path = desk/Waybar
+	url = https://github.com/Alexays/Waybar.git
+[submodule "desk/sndio"]
+	path = desk/sndio
+	url = https://caoua.org/git/sndio
+[submodule "desk/xdg-desktop-portal-hyprland"]
+	path = desk/xdg-desktop-portal-hyprland
+	url = https://github.com/hyprwm/xdg-desktop-portal-hyprland.git
+[submodule "desk/libxcb-errors"]
+	path = desk/libxcb-errors
+	url = https://gitlab.freedesktop.org/xorg/lib/libxcb-errors
+[submodule "desk/Yin-Yang"]
+	path = desk/Yin-Yang
+	url = https://github.com/oskarsh/Yin-Yang
