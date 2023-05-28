@@ -1,3 +1,6 @@
 [submodule "desk/Hyprland"]
 	path = desk/Hyprland
 	url = https://github.com/hyprwm/Hyprland
+[submodule "desk/hyprpaper"]
+	path = desk/hyprpaper
+	url = https://github.com/hyprwm/hyprpaper.git
