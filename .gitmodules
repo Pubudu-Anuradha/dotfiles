@@ -19,3 +19,9 @@
 [submodule "desk/Yin-Yang"]
 	path = desk/Yin-Yang
 	url = https://github.com/oskarsh/Yin-Yang
+[submodule "desk/pamixer"]
+	path = desk/pamixer
+	url = https://github.com/cdemoulins/pamixer.git
+[submodule "desk/avizo"]
+	path = desk/avizo
+	url = https://github.com/misterdanb/avizo.git
