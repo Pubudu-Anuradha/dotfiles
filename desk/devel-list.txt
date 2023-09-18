@@ -24,12 +24,12 @@ inotify-tools-devel-0:3.22.1.0-4.fc38.x86_64
 jansson-devel-0:2.13.1-6.fc38.x86_64
 java-1.8.0-openjdk-devel-1:1.8.0.382.b05-2.fc38.x86_64
 jsoncpp-devel-0:1.9.5-4.fc38.x86_64
-kernel-devel-0:6.4.12-200.fc38.x86_64
 kernel-devel-0:6.4.13-200.fc38.x86_64
 kernel-devel-0:6.4.14-200.fc38.x86_64
+kernel-devel-0:6.4.15-200.fc38.x86_64
 libX11-devel-0:1.8.6-1.fc38.x86_64
 libconfig-devel-0:1.7.3-5.fc38.x86_64
-libcurl-devel-0:8.0.1-3.fc38.x86_64
+libcurl-devel-0:8.0.1-4.fc38.x86_64
 libcxx-devel-0:16.0.6-1.fc38.x86_64
 libdbusmenu-gtk3-devel-0:16.04.0-21.fc38.x86_64
 libdispatch-devel-1:5.7.3-1.fc38.x86_64
@@ -60,8 +60,8 @@ openssl-devel-1:3.0.9-2.fc38.x86_64
 opus-devel-0:1.3.1-12.fc38.x86_64
 pango-devel-0:1.50.14-1.fc38.x86_64
 pcre-devel-0:8.45-1.fc38.3.x86_64
-pipewire-devel-0:0.3.79-1.fc38.x86_64
-pipewire-jack-audio-connection-kit-devel-0:0.3.79-1.fc38.x86_64
+pipewire-devel-0:0.3.80-1.fc38.x86_64
+pipewire-jack-audio-connection-kit-devel-0:0.3.80-1.fc38.x86_64
 pixman-devel-0:0.42.2-1.fc38.x86_64
 playerctl-devel-0:2.4.1-4.fc38.x86_64
 portaudio-devel-0:19-40.fc38.x86_64
