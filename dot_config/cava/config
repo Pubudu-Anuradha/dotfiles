@@ -17,7 +17,7 @@ sensitivity = 150
 # Bars' width and space between bars in number of characters.
 bars = 0
 bar_width = 1
-bar_spacing = 1
+bar_spacing = 0
 # bar_height is only used for output in "noritake" format
 ; bar_height = 32
 
@@ -166,8 +166,8 @@ method = ncurses
 ; foreground = default
 
 # SDL and sdl_glsl only support hex code colors, these are the default:
-; background = '#111111'
-; foreground = '#33ffff'
+background = '#000000'
+foreground = '#33ffff'
 
 
 # Gradient mode, only hex defined colors are supported,
@@ -189,8 +189,8 @@ gradient_color_8 = '#ff0000'
 [smoothing]
 
 # Disables or enables the so-called "Monstercat smoothing" with or without "waves". Set to 0 to disable.
-; monstercat = 0
-; waves = 0
+monstercat = 1
+waves = 1
 
 # Set gravity percentage for "drop off". Higher values means bars will drop faster.
 # Accepts only non-negative values. 50 means half gravity, 200 means double. Set to 0 to disable "drop off".

@@ -33,7 +33,7 @@
     origin = top-right
 
     # Offset from the origin
-    offset = 20x5
+    offset = 20x25
 
     # Scale factor. It is auto-detected if value is 0.
     scale = 0
@@ -73,7 +73,7 @@
     # The transparency of the window.  Range: [0; 100].
     # This option will only work if a compositing window manager is
     # present (e.g. xcompmgr, compiz, etc.). (X11 only)
-    transparency = 50
+    transparency = 10
 
     # Draw a line of "separator_height" pixel height between two
     # notifications.
@@ -95,7 +95,7 @@
     frame_width = 3
 
     # Defines color of the frame around the notification window.
-    frame_color = "#000000"
+    frame_color = "#ffffff"
 
     # Size of gap to display between notifications - requires a compositor.
     # If value is greater than 0, separator_height will be ignored and a border

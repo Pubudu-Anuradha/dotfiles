@@ -1,5 +1,5 @@
 #!/bin/bash
-exts=( "zip" "pdf" "rar" )
+exts=( "zip" "pdf" "rar" "tar.gz" "iso")
 
 for ext in "${exts[@]}"; do
 	echo $ext
